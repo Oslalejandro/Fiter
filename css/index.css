@@ -244,7 +244,8 @@ margin-top: 100px;}
     height: 300px; width: 100%;
 display: flex;
 align-items: center;
-justify-content: space-around;}
+justify-content: space-around;
+}
 
 .box__text__items{background: rgba(234, 227, 219, 0.297);
 height: 250px;
