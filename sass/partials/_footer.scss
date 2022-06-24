@@ -1,0 +1,17 @@
+.box4{display: flex; 
+    background-color: azure;
+    height: 100px;
+    justify-content: center;
+    }
+    
+    .box4__text{
+    display: inline-block;
+    height: 75px;
+    margin: 10px;
+    box-sizing: content-box;
+    flex-direction: column;
+    display: flex;
+    }
+    
+    .box4__img{margin: auto auto;
+    width: 40px;}

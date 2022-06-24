@@ -1,6 +1,14 @@
 
 /* Normalize */
 
+
+:root{
+    --color-primario: rgb(1, 183, 205);
+    --color-text: white;
+}
+
+
+
 *{margin: 0;
 padding: 0;
 box-sizing: border-box;}
@@ -35,7 +43,8 @@ a{text-decoration: none;}
 }
 
 
-header {background: rgb(1, 183, 205, 1); display: flex;
+header {background: var(--color-primario); 
+display: flex;
 -webkit-box-shadow: 0 10px 6px -6px #777;
 -moz-box-shadow: 0 10px 6px -6px #777; 
 box-shadow:0 10px 6px -6px #777 ;
@@ -76,7 +85,7 @@ header nav .menu{
 }
 
 
-.box { background: rgb(1, 183, 205, 1);
+.box { background: var(--color-primario);
 height: 400px; display: grid; width: 100%;
 text-align: center; justify-content: center;
 width: 100%;
@@ -111,14 +120,14 @@ padding: auto;
 
 
 .menu__link{
-    color: aliceblue;
+    color: var(--color-text);
 text-decoration: none;
 text-align: center;
 }
 
 .box__link{display: inline-block; 
     background-color: rgba(116, 194, 181);
-    color: white;
+    color: var(--color-text);
 padding: 15px 15px; 
 border-style: dotted; 
 border-width: 1px;
