@@ -22,6 +22,30 @@ main section picture img {
 a {
   text-decoration: none; }
 
+.box__text__items {
+  height: 500px;
+  width: 250px; }
+
+.box__text__items2 {
+  height: 500px;
+  width: 250px; }
+
+.box__text__items3 {
+  height: 500px;
+  width: 250px; }
+
+.box__text__items4 {
+  height: 500px;
+  width: 250px; }
+
+.box__text__items5 {
+  height: 500px;
+  width: 250px; }
+
+.box__text__items6 {
+  height: 500px;
+  width: 250px; }
+
 .hamburger, #hamburger {
   display: none; }
 
@@ -94,3 +118,28 @@ header nav .menu {
 .box4__img {
   margin: auto auto;
   width: 40px; }
+
+box--box {
+  background-color: #f1bf88; }
+
+box--box2 {
+  background-color: #99dbea; }
+
+box--box3 {
+  background-color: #ee6fb7; }
+
+box--box4 {
+  background-color: #b9ea99; }
+
+box--box5 {
+  background-color: #dc65be; }
+
+box--box6 {
+  background-color: #5b9289; }
+
+.box__items, .box__items2, .box__items3, .box__items4, .box__items5, .box__items6 {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }

@@ -1,0 +1,42 @@
+$box:(
+    box: #f1bf88,
+    box2: #99dbea,
+    box3: #ee6fb7,
+    box4: #b9ea99,
+    box5: #dc65be,
+    box6:  #5b9289,
+);
+
+@each $boxes, $color in $box {
+box--#{$boxes}{
+    background-color: $color;
+    }
+}
+
+
+.box__items{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box__items2{
+    @extend .box__items;
+}
+
+.box__items3{
+    @extend .box__items; 
+}
+
+.box__items4{
+    @extend .box__items; 
+}
+.box__items5{
+    @extend .box__items; 
+}
+.box__items6{
+    @extend .box__items; 
+}
+

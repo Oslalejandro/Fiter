@@ -1,0 +1,24 @@
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;    
+}
+
+.box__text__items{
+    @include sizes(250px, 500px)
+}
+
+.box__text__items2{
+    @include sizes(250px, 500px)
+}
+.box__text__items3{
+    @include sizes(250px, 500px)
+}
+.box__text__items4{
+    @include sizes(250px, 500px)
+}
+.box__text__items5{
+    @include sizes(250px, 500px)
+}
+.box__text__items6{
+    @include sizes(250px, 500px)
+}
