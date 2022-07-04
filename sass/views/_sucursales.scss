@@ -1,0 +1,22 @@
+.address{  
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.address__items{ 
+    width: 100%; height: 250px;
+    display: inline-block;
+    border-style: dotted; 
+    border-width: 1px;
+    margin: 10px; 
+    text-align: center;}
+
+.address__text{
+    margin-top: 50px;
+    color: rgb(70, 141, 228);
+    font-size: 2em;}
+
+
+.street{
+font-style: oblique;
+}
