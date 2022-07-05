@@ -1,3 +1,13 @@
+
+h2{
+    padding-bottom: 0.8em;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(242, 198, 23);
+}
+
+
 .gallery{display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(2, 2fr);

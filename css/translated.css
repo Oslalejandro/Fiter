@@ -270,6 +270,13 @@ header nav .menu {
     font-size: 1.4rem;
     color: #ffffff; } }
 
+h2 {
+  padding-bottom: 0.8em;
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #f2c617; }
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
