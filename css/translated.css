@@ -254,7 +254,7 @@ header nav .menu {
     display: none; }
   .box__link__items {
     display: flex;
-    background-color: #60bcad;
+    background-color: #01b7cd;
     color: white;
     padding: 10px 10px;
     border-style: dotted;
@@ -275,7 +275,19 @@ h2 {
   font-size: 3rem;
   font-weight: bold;
   text-decoration: underline;
-  text-decoration-color: #f2c617; }
+  text-decoration-color: #f2c617;
+  text-align: center; }
+
+h3 {
+  margin-left: 17px; }
+
+.box2__text {
+  color: #ffffff;
+  margin-top: 50px;
+  margin-right: 50px;
+  text-align: center;
+  font-size: 2em;
+  justify-items: center; }
 
 .gallery {
   display: grid;
@@ -304,7 +316,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 5rem; }
+  font-size: 5rem;
+  font-weight: bold; }
 
 .gallery__img1:hover::before {
   transform: translate(0); }
@@ -328,7 +341,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 5rem; }
+  font-size: 5rem;
+  font-weight: bold; }
 
 .gallery__img2:hover::before {
   transform: translate(0); }
@@ -352,7 +366,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 5rem; }
+  font-size: 5rem;
+  font-weight: bold; }
 
 .gallery__img3:hover::before {
   transform: translate(0); }
@@ -363,7 +378,7 @@ h2 {
   overflow: hidden; }
 
 .gallery__img4::before {
-  content: "SECTOR DE MUSCULACION";
+  content: "MUSCULACION";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -376,7 +391,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 5rem; }
+  font-size: 5rem;
+  font-weight: bold; }
 
 .gallery__img4:hover::before {
   transform: translate(0); }
@@ -385,6 +401,22 @@ h2 {
   header {
     /* flex-direction: column; */
     gap: 1rem; }
+  h2 {
+    padding-bottom: 0.5em;
+    font-size: 2.7rem;
+    text-decoration: underline;
+    text-decoration-color: #f2c617; }
+  .box {
+    background-color: #74c2b5;
+    height: 350px;
+    display: grid;
+    width: 100%; }
+  .box__text {
+    color: aliceblue;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.5em;
+    justify-items: center; }
   .gallery {
     display: flex;
     gap: 0.3rem;
@@ -401,14 +433,17 @@ h2 {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #5b928985;
+    background-color: #01b7cd;
     transform: translate(100%);
     transition: transform .4s;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem; }
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #f2c617; }
   .gallery__img1:hover::before {
     transform: translate(0); }
   .gallery__img2 {
@@ -422,14 +457,17 @@ h2 {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #5b928985;
+    background-color: #01b7cd;
     transform: translate(100%);
     transition: transform .4s;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem; }
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #f2c617; }
   .gallery__img2:hover::before {
     transform: translate(0); }
   .gallery__img3 {
@@ -443,14 +481,17 @@ h2 {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #5b928985;
+    background-color: #01b7cd;
     transform: translate(100%);
     transition: transform .4s;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem; }
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #f2c617; }
   .gallery__img3:hover::before {
     transform: translate(0); }
   .gallery__img4 {
@@ -464,14 +505,17 @@ h2 {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #5b928985;
+    background-color: #01b7cd;
     transform: translate(100%);
     transition: transform .4s;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem; }
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #f2c617; }
   .gallery__img4:hover::before {
     transform: translate(0); } }
 

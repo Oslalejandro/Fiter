@@ -47,6 +47,9 @@ $box:(
     font-size: 2.1rem;
     color: rgb(255, 255, 255);
 }
+.box__link{
+   
+}
 
 @media screen and (max-width: 480px) {
     header{
@@ -146,10 +149,15 @@ $box:(
 
     .box__img__items{ display: none}
 
-    .box__link__items{ display: flex; 
-        background-color: #60bcad; color: white;
-        padding: 10px 10px; border-style: dotted; border-width: 0.5px;
-        text-align: center; border-radius: 1em;
+    .box__link__items{ 
+        display: flex; 
+        background-color:#01b7cd; 
+        color: white;
+        padding: 10px 10px; 
+        border-style: dotted; 
+        border-width: 0.5px;
+        text-align: center; 
+        border-radius: 1em;
         font-size: 0.6em;
         flex-direction: row;
         margin-right: 10px;

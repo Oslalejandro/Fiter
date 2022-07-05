@@ -153,11 +153,11 @@ height: 500px;
 width: 100px;
 }
 
-.box2__text{ color: rgb(255, 255, 255);
+/* .box2__text{ color: rgb(255, 255, 255);
     margin-top: 50px;
     text-align: center;
     font-size: 2em;
-    justify-items: center;}
+    justify-items: center;} */
 
 
 .box2__link{display: inline-block; 
@@ -173,7 +173,7 @@ font-size: 2em;
 
 .box2__nav{padding: auto;
     height: 15px;
-text-align: center;}
+margin-left: 70px;}
 
 /* TERCERA SECCION */
 
@@ -474,7 +474,7 @@ width: 700px;
 
 
 .formulario__help{background: rgb(1, 183, 205, 1);
-    height: 700px;
+    height: 800px;
     width: 700px; 
 padding: 20px;
 color: aliceblue;}
@@ -558,13 +558,13 @@ font-size: 1em;}
     }
     
     
-    .box__text{color: aliceblue;
+    /* .box__text{color: aliceblue;
     margin-top: 50px;
     text-align: center;
     font-size: 1.5em;
-    justify-items: center;}
+    justify-items: center;} */
     
-    section div h2{padding-bottom: 0.8em;}
+    section div{padding-bottom: 0.8em;}
     
     .box__link{display: inline-block; 
         background-color: rgb(96, 188, 173);color: white;
