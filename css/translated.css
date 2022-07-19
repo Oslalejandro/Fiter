@@ -1,5 +1,5 @@
 :root {
-  --color-primario: rgb(1, 183, 205);
+  --color-primario: #01b7cd;
   --color-text: white; }
 
 * {
@@ -136,25 +136,25 @@ header nav .menu {
   width: 40px; }
 
 .box__items, .box__items2, .box__items3, .box__items4, .box__items5, .box__items6 {
-  background: #f1bf88; }
+  background: #ffc538; }
 
 .box__items2 {
-  background: #99dbea; }
+  background: #95c543; }
 
 .box__items3 {
-  background: #ee6fb7; }
+  background: #F4035B; }
 
 .box__items4 {
   background: #b9ea99; }
 
 .box__items5 {
-  background: #dc65be; }
+  background: #7d2a8f; }
 
 .box__items6 {
-  background: #5b9289; }
+  background: #09f2cb; }
 
 .box__items, .box__items2, .box__items3, .box__items4, .box__items5, .box__items6 {
-  height: 300px;
+  height: 450px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -165,6 +165,20 @@ header nav .menu {
   margin-top: 50px;
   font-size: 2.1rem;
   color: white; }
+
+.box__link__items {
+  display: flex;
+  background-color: white;
+  color: white;
+  padding: 20px 20px;
+  border-style: inherit;
+  border-width: 20px;
+  text-align: center;
+  border-radius: 2em;
+  font-size: 1.5em;
+  margin-right: 100px;
+  width: 250px;
+  height: 100px; }
 
 @media screen and (max-width: 480px) {
   header {

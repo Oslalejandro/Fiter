@@ -1,11 +1,11 @@
 
 $box:(
-    box__items: #fdc538,
-    box__items2: #99dbea,
-    box__items3: #ee6fb7,
+    box__items: #ffc538 ,
+    box__items2: #95c543,
+    box__items3: #F4035B,
     box__items4: #b9ea99,
-    box__items5: #dc65be,
-    box__items6:  #5b9289
+    box__items5: #7d2a8f,
+    box__items6:  #09f2cb
 );
 
 @each $boxes, $color in $box {
@@ -16,7 +16,7 @@ $box:(
 
 
 .box__items{
-    height: 300px;
+    height: 450px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -49,6 +49,16 @@ $box:(
 }
 .box__link{
    
+}
+
+.box__link__items{ display: flex; 
+    background-color: white; color: white;
+    padding: 20px 20px; border-style: inherit; border-width: 20px;
+    text-align: center; border-radius: 2em;
+    font-size: 1.5em;
+    margin-right: 100px;
+    width: 250px;
+    height: 100px;
 }
 
 @media screen and (max-width: 480px) {
