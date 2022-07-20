@@ -8,6 +8,18 @@ $box:(
     box__items6:  #09f2cb
 );
 
+
+header {background: var(--color-primario); 
+    display: flex;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777; 
+    box-shadow:0 10px 6px -6px #777 ;
+    position: fixed; 
+    width: 100%;
+    align-items: center;
+    padding: 0.5rem;
+    }
+    
 @each $boxes, $color in $box {
   .#{$boxes}{
     background: $color;
@@ -22,6 +34,7 @@ $box:(
     align-items: center;
     justify-content: space-around;
 }
+
 
 .box__items2{
     @extend .box__items;
@@ -51,12 +64,14 @@ $box:(
    
 }
 
-.box__link__items{ display: flex; 
-    background-color: white; color: white;
-    padding: 20px 20px; border-style: inherit; border-width: 20px;
-    text-align: center; border-radius: 2em;
-    font-size: 1.5em;
-    margin-right: 100px;
+.box__link__items{  
+    display: flex; 
+    background-color: white; 
+    color: white;
+    padding: 30px 30px; 
+    text-align: center; 
+    font-size: 1.2em;
+    margin-right: 60px;
     width: 250px;
     height: 100px;
 }
@@ -66,6 +81,30 @@ $box:(
         gap: 1rem;
     }  
   
+    .box__bag {
+        background: #ffffff5c; 
+        display: inline-block;
+        width: 350px; 
+        height: 180px; 
+        margin-top: 120px;
+        display: grid;
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777; 
+        box-shadow:0 10px 6px -6px #777 ;
+        border-radius: 2em;
+        border: 1px #b7e86d84 solid ;
+        }
+        .box__link{
+            display: inline-block; 
+            background-color: rgb(96, 188, 173);
+            color: white;
+            padding: 10px 10px; 
+            border-style: dotted; 
+            border-width: 0.5px;
+            text-align: center; 
+            border-radius: 1em;
+            font-size: 1em;}
+
     .box__items{ background: #f1bf88; 
         height: 100px; width: 100%;
     display: flex;
@@ -159,15 +198,17 @@ $box:(
     .box__img__items{ display: none}
 
     .box__link__items{ 
+        width: 120px ;
+        height: 50px;
         display: flex; 
-        background-color:#01b7cd; 
+        background-color:white; 
         color: white;
-        padding: 10px 10px; 
+        padding: 20px 10px; 
         border-style: dotted; 
-        border-width: 0.5px;
+        border-width: 0px;
         text-align: center; 
         border-radius: 1em;
-        font-size: 0.6em;
+        font-size: 0.5em;
         flex-direction: row;
         margin-right: 10px;
     }
