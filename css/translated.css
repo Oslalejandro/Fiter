@@ -135,6 +135,174 @@ header nav .menu {
   margin: auto auto;
   width: 40px; }
 
+.img__back {
+  position: absolute;
+  background-repeat: no-repeat; }
+
+body {
+  color: #01b7cd; }
+
+.firts-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px; }
+
+.formulario__text {
+  color: aliceblue;
+  font-size: 1.5em; }
+
+.formulario {
+  background: #01b7cd;
+  height: 200px;
+  width: 1000px;
+  text-align: center;
+  margin-top: -50px;
+  color: aliceblue; }
+
+.box__title {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.second-section {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+#inputs {
+  display: flex;
+  background: #01b7cd;
+  height: 500px;
+  width: 1000px;
+  justify-content: center;
+  font-size: 1.3em; }
+
+#inputs__one {
+  height: 500px;
+  width: 350px;
+  text-align: center;
+  margin-top: 100px; }
+
+#inputs__two {
+  height: 500px;
+  width: 350px;
+  text-align: center;
+  margin-top: 100px; }
+
+.formulario__input {
+  text-align: center; }
+
+.formulario__box {
+  padding-bottom: 30px; }
+
+.formulario__inputs-section {
+  margin: 10px; }
+
+.formulario__name {
+  margin: 10px; }
+
+.formulario__second-name {
+  margin: 10px; }
+
+.formulario__dni {
+  margin: 10px; }
+
+.formulario__phone {
+  margin: 10px; }
+
+.formulario__email {
+  margin: 10px; }
+
+.formulario__email-box {
+  width: 100%; }
+
+.send__button {
+  width: 135px;
+  height: 38px;
+  border-radius: 2px;
+  border-color: white;
+  background-color: #7d2a8f;
+  font-size: 2em;
+  color: white;
+  margin-top: 30px; }
+
+.back {
+  height: 200px;
+  background-color: #01b7cd; }
+
+@media screen and (max-width: 480px) {
+  header {
+    gap: 1rem; }
+  #inputs {
+    font-size: 0.9em; }
+  #inputs__one {
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    margin-top: 0px; }
+  #inputs__two {
+    height: 500px;
+    width: 350px;
+    text-align: center;
+    margin-top: 0px; }
+  .send__button {
+    width: 120px;
+    height: 30px;
+    border-radius: 2px;
+    border-color: white;
+    background-color: #7d2a8f;
+    font-size: 2em;
+    color: white;
+    margin-top: 0px; } }
+
+.formulario__box2 {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em; }
+
+.formulario__socio {
+  margin: 10px;
+  font-size: 1em; }
+
+.formulario__motivos {
+  margin: 10px; }
+
+.formulario__inputs-box {
+  width: 100%; }
+
+.formulario__textarea {
+  margin: 10px; }
+
+.formulario__button {
+  display: flex;
+  justify-content: right;
+  margin: 10px; }
+
+.send__button {
+  width: 135px;
+  height: 38px;
+  border-radius: 2px;
+  border-color: white;
+  background-color: #7d2a8f;
+  font-size: 2em;
+  color: white;
+  margin-top: 30px;
+  margin-left: 10px; }
+
+@media screen and (max-width: 480px) {
+  header {
+    gap: 1rem; }
+  .h4__text {
+    font-size: 1em; }
+  .send__button {
+    width: 120px;
+    height: 30px;
+    border-radius: 2px;
+    border-color: white;
+    background-color: #7d2a8f;
+    font-size: 2em;
+    color: white;
+    margin-top: 0px; } }
+
 header {
   background: var(--color-primario);
   display: flex;
@@ -185,8 +353,11 @@ header {
   text-align: center;
   font-size: 1.2em;
   margin-right: 60px;
-  width: 250px;
-  height: 100px; }
+  width: 230px;
+  height: 100px;
+  border-color: #7d2a8f;
+  border-style: solid;
+  border-width: 8px; }
 
 @media screen and (max-width: 480px) {
   header {
@@ -312,19 +483,22 @@ header {
   .box__img__items {
     display: none; }
   .box__link__items {
-    width: 120px;
+    width: 100px;
     height: 50px;
     display: flex;
     background-color: white;
     color: white;
-    padding: 20px 10px;
-    border-style: dotted;
-    border-width: 0px;
+    padding: 5px 10px;
+    border-style: solid;
+    border-width: 3px;
     text-align: center;
     border-radius: 1em;
-    font-size: 0.5em;
+    font-size: 0.6em;
     flex-direction: row;
-    margin-right: 10px; }
+    margin-right: 10px;
+    margin-left: 10px;
+    border-color: #95c543;
+    border-style: solid; }
   .box__text__subtitle {
     font-weight: bold;
     margin-top: 25px;
@@ -669,7 +843,7 @@ h4 {
     transform: translate(0); } }
 
 .address {
-  display: inline-block;
+  display: grid;
   margin-top: 20px; }
 
 .address__items {
@@ -688,3 +862,22 @@ h4 {
 
 .street {
   font-style: oblique; }
+
+@media screen and (max-width: 480px) {
+  header {
+    gap: 1rem; }
+  .address {
+    display: inline-block;
+    margin-top: 20px; }
+  .address__items {
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    border-style: dotted;
+    border-width: 1px;
+    margin: 10px;
+    text-align: center; }
+  .address__text {
+    margin-top: 15px;
+    color: #468de4;
+    font-size: 2em; } }

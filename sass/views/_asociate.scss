@@ -1,0 +1,126 @@
+
+.img__back{
+    position: absolute;
+    background-repeat: no-repeat;
+}
+body{color: #01b7cd;}
+
+.firts-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;}
+    
+.formulario__text{ 
+    color: aliceblue;
+    font-size: 1.5em;}
+    
+.formulario{
+    background: #01b7cd; 
+    height: 200px;
+    width: 1000px;
+    text-align: center;
+    margin-top: -50px;
+    color: aliceblue;
+    }
+.box__title{
+    font-family: Arial, Helvetica, sans-serif;}    
+  
+.second-section{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+#inputs{display: flex;
+    background: #01b7cd;
+    height: 500px;
+    width: 1000px;
+    justify-content: center;
+    font-size: 1.3em;
+    }
+    
+#inputs__one{
+    height: 500px;
+    width: 350px;
+    text-align: center;
+    margin-top: 100px;
+    }
+#inputs__two{
+    height: 500px;
+    width: 350px;
+    text-align: center;
+    margin-top: 100px; }
+    
+.formulario__input{
+    text-align: center;}
+
+.formulario__box{
+    padding-bottom: 30px;
+ }
+
+    
+.formulario__inputs-section{
+    margin: 10px;
+}
+    
+.formulario__name{
+    margin: 10px;}
+.formulario__second-name{
+    margin: 10px;}
+    
+.formulario__dni{
+    margin:10px ;}
+.formulario__phone{
+    margin:10px ;}
+    
+.formulario__email{
+     margin: 10px;}
+.formulario__email-box{
+    width: 100%;}
+    
+.send__button{
+    width: 135px;
+    height: 38px;
+    border-radius: 2px;
+    border-color: white;
+    background-color: #7d2a8f;
+    font-size: 2em;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.back{height: 200px; background-color: #01b7cd;}
+
+    @media screen and (max-width: 480px) {
+        header{
+            gap: 1rem;
+        }    
+       
+    #inputs{
+    font-size: 0.9em;
+    } 
+
+    #inputs__one{
+        height: 400px;
+        width: 350px;
+        text-align: center;
+        margin-top: 0px;
+        }
+    #inputs__two{
+        height: 500px;
+        width: 350px;
+        text-align: center;
+        margin-top: 0px; } 
+
+    .send__button{
+        width: 120px;
+        height: 30px;
+        border-radius: 2px;
+        border-color: white;
+        background-color: #7d2a8f;
+        font-size: 2em;
+        color: white;
+        margin-top: 0px;
+        }
+    }
